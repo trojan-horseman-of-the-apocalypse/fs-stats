@@ -31,8 +31,7 @@ yargs.command({
           return;
         }
       } catch (e) {
-        // eslint-disable-next-line quotes
-        console.log(chalk.red(`The file you are trying to evaluate doesn't seem to exist. Please try again!`));
+        console.log(chalk.red('The file you are trying to evaluate doesn\'t seem to exist. Please try again!'));
       }
     });
   },
@@ -76,8 +75,7 @@ yargs.command({
           return;
         }
       } catch (e) {
-        // eslint-disable-next-line quotes
-        console.log(chalk.red(`The directory you are trying to evaluate doesn't seem to exist. Please try again!`));
+        console.log(chalk.red('The file you are trying to evaluate doesn\'t seem to exist. Please try again!'));
       }
     });
   },
